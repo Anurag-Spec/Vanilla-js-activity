@@ -14,6 +14,13 @@
             margin: 1rem;
             padding: 1rem;
         }
+        #output{
+            border: 1px solid black;
+            height: 10vh;
+            margin: 1rem;
+            width: 80%;
+            padding: 1rem;
+        }
     </style>
 
 </head>
@@ -21,9 +28,12 @@
 <body>
     <h1>Talk Banana</h1>
 
-    <button id="btn-translate">Translate</button>
+    
     <textarea placeholder="Please enter your text in English" id="txt-input" cols="30" rows="10"></textarea>
+    <button id="btn-translate">Translate</button>
+    <div style="text-size: larger;">Output will be shown here 👇🏽</div>
 
+    <div id= "output"></div>
 
 
     <script src="/app.js">
