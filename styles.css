@@ -57,8 +57,8 @@ h1{
     height: 35vh;
 
 }
-@media screen (max-width: 650px) {
-    img{
+@media screen and (max-width: 650px) {
+    .main-image {
         width: 20%;
         height: 20vh;
     }
